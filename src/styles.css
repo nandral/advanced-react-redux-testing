@@ -5,3 +5,27 @@ html {
 * {
   box-sizing: border-box;
 }
+
+textarea {
+  resize: none;
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 1rem;
+  background: #bdc3c7;
+}
+
+ul li {
+  background: #ecf0f1;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  transition: font-size 1s ease;
+}
+
+ul li:hover {
+  font-size: 0.85rem;
+  cursor: pointer;
+}
